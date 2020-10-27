@@ -16,10 +16,10 @@ public class DefaultAgent extends Agent {
     private List<String> linkedAgents;
     private int number;
 
-    // Sum of all received numbers
+    /* Sum of all received numbers */
     private Double sum;
 
-    // Agents whose numbers was already added
+    /* Agents whose numbers was already added */
     private List<String> numProcessedAgents;
 
     @Override

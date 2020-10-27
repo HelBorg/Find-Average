@@ -17,7 +17,7 @@ public class FindAverage extends TickerBehaviour {
 
     private int currentStep;
     private final int MAX_STEPS = 10;
-    private final int SEND_MY_NUM = 2;
+    private final int SEND_MY_NUM = 1;
 
     public FindAverage(DefaultAgent agent, long period) {
         super(agent, period);
